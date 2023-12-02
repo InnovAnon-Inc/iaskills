@@ -15,7 +15,7 @@ SkillsFramework.define_skill({
 	cost_func=iaskills.cost_func,
 	group="Basic Skills",
 	--max=20,
-	min=start,
+	min=iaskills.start,
 	--on_levelup=function(set_id, level)
 		--if level == 3 then
 		--	Skillsframework.append_skills(set_id, "iawe:Alchemy"
@@ -27,56 +27,56 @@ SkillsFramework.define_skill({
 	name="Defense",
 	cost_func=iaskills.cost_func,
 	group="Basic Skills",
-	min=start,
+	min=iaskills.start,
 })
 SkillsFramework.define_skill({
 	mod="iaskills",
 	name="Ranged",
 	cost_func=iaskills.cost_func,
 	group="Basic Skills",
-	min=start,
+	min=iaskills.start,
 })
 SkillsFramework.define_skill({
 	mod="iaskills",
 	name="Crafting",
 	cost_func=iaskills.cost_func,
 	group="Basic Skills",
-	min=start,
+	min=iaskills.start,
 })
 SkillsFramework.define_skill({
 	mod="iaskills",
 	name="Mining",
 	cost_func=iaskills.cost_func,
 	group="Basic Skills",
-	min=start,
+	min=iaskills.start,
 })
 SkillsFramework.define_skill({
 	mod="iaskills",
 	name="Digging",
 	cost_func=iaskills.cost_func,
 	group="Basic Skills",
-	min=start,
+	min=iaskills.start,
 })
 SkillsFramework.define_skill({
 	mod="iaskills",
 	name="Smelting",
 	cost_func=iaskills.cost_func,
 	group="Basic Skills",
-	min=start,
+	min=iaskills.start,
 })
 SkillsFramework.define_skill({
 	mod="iaskills",
 	name="Cooking",
 	cost_func=iaskills.cost_func,
 	group="Basic Skills",
-	min=start,
+	min=iaskills.start,
 })
 SkillsFramework.define_skill({
 	mod="iaskills",
 	name="Woodcutting",
 	cost_func=iaskills.cost_func,
 	group="Basic Skills",
-	min=start,
+	min=iaskills.start,
 })
 
 minetest.register_on_newplayer(function(ref)
